@@ -1,0 +1,53 @@
+#contPrincipal{
+    font-size: 4em;
+}
+
+main{
+    
+    background-color: pink;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+main > *{
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+main{
+    
+    height: 500px;
+    display: flex;
+    /* flex-direction: row;      */
+    /* flex-wrap: nowrap; */
+    flex-flow: row nowrap;
+    /* justify-content: space-between; */
+    align-items: flex-start;
+    /* align-content: space-around; */
+}
+
+.uno{
+    height: 100px;
+    width: 200px;
+    /* align-self: flex-start; */
+    /* order: 2; */
+    flex: initial;
+    flex: auto;
+    flex: none;
+    flex: 1;
+}
+.dos{
+    height: 100px;
+    width: 200px;
+    /* align-self: flex-end; */
+    flex: auto;
+    flex: 2;
+}
+.tres{
+    height: 100px;
+    width: 200px;
+    /* align-self: center; */
+    flex: 1;
+}
